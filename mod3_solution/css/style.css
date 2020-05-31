@@ -42,6 +42,11 @@ body {
 #nav-list a:hover {
     opacity: .75;
 }
+#nav-list p {
+
+    font-size: 1.3em;
+}
+
 /** END HEADER **/
 .main-body  {
     padding-right: 15px;
