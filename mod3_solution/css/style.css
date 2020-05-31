@@ -1,26 +1,63 @@
+*{
+    box-sizing: border-box;
+
+}
+
 body {
     font-size: 16px;
-    background-color: #61122f;
+    background-color: #fff;
     font-family: sans-serif;
-    color: #fff;
+    color: blue;
 }
 
 /** Header **/
 #header-nav {
-    background-color: #f6b319;
+    background: linear-gradient(120deg,#7f70f5,#0ea0ff);
     border-radius: 0;
     border: 0;
 }
 .navbar-brand h1 {
-    font-family: serif;
-    color: #557c3e;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
     font-size: 1.5em;
     font-weight: bold;
     text-shadow: 1px 1px 1px #222;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: .75
+    line-height: .75;
+    margin-left: 10px;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar h1:hover {
+    opacity: .75;
+}
+.navbar-brand a:hover,.navbar-brand a:focus {
     text-decoration: none;
 } 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #fff;
+}
+#nav-list a {
+    color: #fff;
+}
+#nav-list a:hover {
+    opacity: .75;
+}
+/** END HEADER **/
+.main-body  {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.text{
+    text-align: justify;
+    color: black;
+    padding: 10px
+}
+.content{
+    position: relative;
+    border: 1px solid black;
+    background-color: #F2F2F2;
+    height: max-content;
+    margin: 10px;
+}
